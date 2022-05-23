@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=l">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Happy+Monkey&family=Jim+Nightshade&family=Orbitron&family=Roboto:wght@300;500&family=Space+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="img/jpg" href="images/destruction3.jpg" />
+        <title>Unit Converter</title>
+    </head>
+    <body>
+        <div id="main">
+            <div id="main2">
+                <h2 id="heading">Metric/Imperial unit conversion</h2>
+                <input type="number" id="nmbrCon" placeholder="Number"/>
+                <div id="main3">
+                    <button onclick="myLen()">Length</button>
+                    <button onclick="myVol()">Volume</button>
+                    <button onclick="myMas()">Mass</button>
+                </div>
+            </div>
+            <div class="metrics">
+                    <p id="length">Length (Meter/Feet)</p>
+                <div class="metrics2">
+                    <span id="conlen"></span>
+                </div>
+                    <p id="volume">Volume (Liters/Gallons)</p>
+                <div class="metrics2">
+                    <span id="convol"></span>
+                </div>
+                    <p id="mass">Mass (Liters/Gallons)</p>
+                <div class="metrics2">
+                    <span id="conmas"></span>
+                </div>
+            </div>
+        </div>
+        <script src="unitConverter.js"></script>
+    </body>
+</html>
